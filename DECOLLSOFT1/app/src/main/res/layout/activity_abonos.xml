@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/clienteadm"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginBottom="371dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/bGuardar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCliente"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic"
+        android:layout_toStartOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                                                                   "
+        android:id="@+id/textView"
+        android:textColor="#d6e9ff"
+        android:layout_below="@+id/etCliente"
+        android:layout_alignStart="@+id/etCliente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Deuda"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/iconoestadodecuentas"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignBottom="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_toEndOf="@+id/textView2"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Abono"
+        android:id="@+id/textView3"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:src="@drawable/abanoo"
+        android:layout_marginBottom="5dp"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignBottom="@+id/etAbono" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAbono"
+        android:hint="Cantidad a Abonar"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_toEndOf="@+id/textView3"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fecha"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/calendario"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_alignBottom="@+id/etFecha" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/bGuardar"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/bAtras"
+        android:textStyle="bold|italic" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atrás"
+        android:id="@+id/bAtras"
+        android:layout_alignTop="@+id/bGuardar"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFecha"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/etAbono"
+        android:hint="Fecha del Abono"
+        android:layout_alignStart="@+id/etAbono" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView12"
+        android:src="@drawable/linealibreporsilasmoscas"
+        android:layout_below="@+id/etCliente"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView13"
+        android:src="@drawable/linealibreporsilasmoscas"
+        android:layout_above="@+id/bGuardar"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idFac"
+        android:textStyle="italic"
+        android:hint="Fecha del Abono"
+        android:layout_above="@+id/imageView13"
+        android:layout_alignStart="@+id/etFecha"
+        android:layout_alignEnd="@+id/imageView13"
+        android:text="Id Factura" />
+
+</RelativeLayout>
