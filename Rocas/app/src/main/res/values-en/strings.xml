@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rocas Game</string>
+    <string name="titulo">Stone</string>
+    <string name="iniciarJuego">Start</string>
+    <string name="configuracionJuego">Configuracion</string>
+    <string name="salirJuego">Exit</string>
+    <string name="informacion">About..</string>
+    <string name="atras">Previous</string>
+
+    <!-- listado de palabras que lleva el activity informacion/-->
+    <string name="desarrollador">Desarrollador:Juan David Redondo</string>
+    <string name="anno">2016</string>
+
+    <!-- listado de palabras para la cactivity configuracion-->
+    <string name="configuracion">configuration</string>
+
+</resources>

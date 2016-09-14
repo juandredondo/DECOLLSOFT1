@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:gravity="center_horizontal">
+
+    <ImageButton
+        android:layout_width="207dp"
+        android:layout_height="141dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/imagen_fondo"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titulo"
+        android:id="@+id/textView" />
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:gravity="center"
+        >
+
+        <!--creando una fila de la table layout-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iniciarJuego"
+                android:id="@+id/button" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/configuracionJuego"
+                android:id="@+id/button2"
+                android:onClick="llamarConfiguracion"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salirJuego"
+                android:id="@+id/button3"
+                android:onClick="salirApp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/informacion"
+                android:id="@+id/button5"
+                android:layout_column="1"
+                android:onClick="llamarInformacion"/>
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

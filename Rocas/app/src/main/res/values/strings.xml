@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Aplicacion de rocas</string>
+    <string name="titulo">Juego de Rocas</string>
+    <string name="iniciarJuego">Comenzar</string>
+    <string name="configuracionJuego">Configuracion</string>
+    <string name="salirJuego">Salir</string>
+    <string name="informacion">Ayuda</string>
+    <string name="atras">Atras</string>
+
+
+    <!-- listado de palabras que lleva el activity informacion/-->
+    <string name="desarrollador">Desarrollador:Juan David Redondo</string>
+    <string name="anno">2016</string>
+
+    <!-- listado de palabras para la cactivity configuracion-->
+
+
+    <!--listado de palabras para  la activity de envio de datos -->
+    <string name="configuracion">Configuracion</string>
+    <string name="envioDatos">Envio de Datos </string>
+    <string name="numero1">Numero 1</string>
+    <string name="numero2">Numero2</string>
+    <string name="resultado">Resultado</string>
+    <string name="sumar">Sumar</string>
+   <string name="restar">Restar</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="dividir">Dividir</string>
+    <string name="recibe_datos">Recibe Datos</string>
+
+</resources>
