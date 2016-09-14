@@ -1,0 +1,33 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1473548660000)
++++ app/src/main/res/layout/activity_main.xml	(revision )
+@@ -52,6 +52,7 @@
+             >
+ 
+ 
++
+                 <RadioButton
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+Index: ../../.AndroidStudio2.1/config/options/fileEditorProviderManager.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../.AndroidStudio2.1/config/options/fileEditorProviderManager.xml	(date 1473548660000)
++++ ../../.AndroidStudio2.1/config/options/fileEditorProviderManager.xml	(date 1473548660000)
+@@ -1,9 +0,0 @@
+-<application>
+-  <component name="FileEditorProviderManager">
+-    <option name="selectedProviders">
+-      <map>
+-        <entry key="android-designer,text-editor" value="android-designer" />
+-      </map>
+-    </option>
+-  </component>
+-</application>
+\ No newline at end of file

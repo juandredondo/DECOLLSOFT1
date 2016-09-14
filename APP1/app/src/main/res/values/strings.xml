@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia de Aprendizaje N° 2</string>
+    <string name="titulo"> Numeros Aleatorios </string>
+    <string name="btnAceptar">Aceptar</string>
+
+    <string name="rdoNombre">Ingresar Texto</string>
+    <string name="rdoAleatorio">Numero Aleatorio</string>
+    <string name="nombreEstudiante"> Juan David Redondo Robles</string>
+
+</resources>
