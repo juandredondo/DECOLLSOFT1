@@ -12,7 +12,7 @@
     android:gravity="center"
     >
 
-    <!-- hola este es un comentario para probar el repositorio de github-->
+    <!--cambiando el mensaje desde android a git hub2-->
 
     <ImageView
         android:layout_width="wrap_content"
