@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/resultado"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:fontFamily="@string/abc_action_bar_home_description"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Texto de activity envio_datos"
+        android:id="@+id/textView13"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Numero1:"
+                android:id="@+id/textView11"
+                android:layout_margin="15dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText1"
+                android:layout_column="7"
+                android:enabled="true"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Numero2:"
+                android:id="@+id/textView12"
+                android:layout_margin="15dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_column="7"
+                android:enabled="true"/>
+        </TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/texto_resultado"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:singleLine="false"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_column="11"
+            android:gravity="center"/>
+
+    </TableLayout>
+
+</LinearLayout>
